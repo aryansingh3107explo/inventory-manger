@@ -3,7 +3,7 @@
 An AI-powered web application designed to modernize railway workshop operations by digitizing inventory management, machine maintenance, and predictive analytics.
 
 ---
-#Live demo - https://expoaryanrailai.insforge.site/inventory
+#Live demo - https://expoaryanrailai.insforge.site
 
 ##  Overview
 
