@@ -1,20 +1,279 @@
-# Inventory Mangenment
+# RailGuard AI – Intelligent Railway Workshop Inventory & Predictive Maintenance System
+
+An AI-powered web application designed to modernize railway workshop operations by digitizing inventory management, machine maintenance, and predictive analytics.
+
+---
+#Live demo - https://expoaryanrailai.insforge.site/inventory
+
+##  Overview
+
+RailGuard AI is a smart railway workshop management platform developed to improve operational efficiency, reduce equipment downtime, and streamline maintenance activities.
+
+The system replaces manual records with a centralized digital platform where workshop staff can manage machines, spare parts, maintenance schedules, QR codes, and AI-powered failure predictions.
+
+---
+
+##  Problem Statement
+
+Railway workshops operate hundreds of machines and maintain thousands of spare parts daily. Traditional paper records and spreadsheets make it difficult to:
+
+- Track machine health
+- Monitor spare parts inventory
+- Schedule preventive maintenance
+- Predict equipment failures
+- Generate maintenance reports
+
+These challenges often result in:
+
+- Unexpected machine breakdowns
+- Increased maintenance costs
+- Delayed repair work
+- Inventory shortages
+- Reduced operational efficiency
+
+---
+
+##  Solution
+
+RailGuard AI provides a centralized platform that digitizes workshop operations and introduces AI-based predictive maintenance to help engineers detect potential machine failures before they occur.
+
+The application enables railway workshop staff to:
+
+- Manage machines
+- Track spare parts
+- Schedule maintenance
+- Monitor inventory
+- Generate reports
+- Analyze machine health
+- Predict failures using AI
+
+---
+
+#  Features
+
+##  Authentication
+- Secure Login
+- Role-Based Access
+- Admin Dashboard
+- Engineer Dashboard
+- Technician Dashboard
+
+---
+
+##  Machine Management
+
+- Register Machines
+- Machine Details
+- Running Hours
+- Machine Status
+- Maintenance History
+- Search & Filter
+
+---
+
+##  Inventory Management
+
+- Spare Parts Management
+- Stock Tracking
+- Low Stock Alerts
+- Supplier Details
+- Inventory Analytics
+
+---
+
+##  Maintenance Scheduler
+
+- Preventive Maintenance
+- Upcoming Maintenance
+- Maintenance History
+- Maintenance Calendar
+- Assigned Technician
+
+---
+
+##  AI Predictive Maintenance
+
+AI analyzes machine parameters such as:
+
+- Operating Hours
+- Machine Age
+- Temperature
+- Vibration
+- Previous Maintenance Records
+
+The system predicts:
+
+- Failure Probability
+- Risk Level
+- Recommended Maintenance Actions
+
+---
+
+##  QR Code Management
+
+Generate unique QR codes for every machine.
+
+Scanning a QR code instantly displays:
+
+- Machine Details
+- Maintenance History
+- AI Prediction
+- Service Schedule
+
+---
+
+## Dashboard
+
+Interactive dashboard displaying:
+
+- Total Machines
+- Machines Under Maintenance
+- Operational Machines
+- Spare Parts Inventory
+- Low Stock Alerts
+- AI Risk Analysis
+- Monthly Maintenance Statistics
+
+---
+
+##  Reports
+
+Generate downloadable reports:
+
+- Machine Reports
+- Maintenance Reports
+- Inventory Reports
+- AI Prediction Reports
+
+---
+
+#  AI Module
+
+The predictive maintenance module helps workshop staff identify high-risk machines before failures occur.
+
+### AI Input
+
+- Running Hours
+- Temperature
+- Vibration
+- Machine Age
+- Previous Breakdowns
+- Last Maintenance Date
+
+### AI Output
+
+- Failure Probability
+- Risk Level
+- Recommended Action
+
+---
+
+# Tech Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Tailwind CSS
+
+## Backend
+
+- FastAPI
+- Python
+
+## Database
+
+- MySQL
+
+## AI
+
+- Scikit-learn
+- Pandas
+- NumPy
+
+## Other Tools
+
+- JWT Authentication
+- QR Code Generator
+- Chart.js / Recharts
+- PDF Report Generator
+
+---
+
+#  System Architecture
+
+```
+                Railway Workshop
+
+                        │
+                        ▼
+
+             Employee Authentication
+
+                        │
+                        ▼
+
+      ┌─────────────────────────────────┐
+      │                                 │
+      │      Railway Management         │
+      │                                 │
+      └─────────────────────────────────┘
+
+        │          │            │
+
+        ▼          ▼            ▼
+
+   Machines    Inventory   Maintenance
+
+        │          │            │
+
+        └──────┬───┴────────────┘
+               │
+               ▼
+
+      AI Predictive Maintenance
+
+               │
+               ▼
+
+        Dashboard & Reports
+```
+
+---
+
+# Project Modules
+
+```
+Authentication
+
+Machine Management
+
+Inventory Management
+
+Maintenance Scheduler
+
+QR Code Management
+
+AI Prediction
+
+Dashboard
+
+Reports
+
+Settings
+```
+
+---
+
+# Future Enhancements
+
+- IoT Sensor Integration
+- Real-Time Machine Monitoring
+- AI
 
 [![npm version](https://img.shields.io/npm/v/@insforge/sdk.svg)](https://www.npmjs.com/package/@insforge/sdk)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Official TypeScript/JavaScript SDK for [InsForge](https://github.com/InsForge/InsForge) - A powerful, open-source Backend-as-a-Service (BaaS) platform.
-
-## Features
-
-- **Authentication** - Email/password, OAuth (Google, GitHub), session management
-- **Database** - Full PostgreSQL database access with PostgREST
-- **Storage** - File upload and management with S3-compatible storage
-- **Edge Functions** - Serverless function invocation
-- **AI Integration** - Built-in AI capabilities
-- **Payments** - Stripe Checkout and Billing Portal session helpers
-- **TypeScript** - Full TypeScript support with type definitions
-- **Automatic OAuth Handling** - Seamless OAuth callback detection
 
 ## Installation
 
